@@ -1,69 +1,577 @@
 let temas = () => {
-    let section_theory = ""
-    let i = 1;
-    let temario = [
-        {
-            idTab: "tab",
-            title:"TEST",
-            theory_secc : section_theory,
-            slide_title : "",
-            slide_link : "",
-            video_title : "",
-            video_link : "",
-            blog_title : "",
-            blog_link : "", 
-            resources : [{
-                title:"",
-                link: ""
-            }],
-            exercise_desc:"",
-            exercise_warm:"",
-            chat_link:"",
-            chat_title:"",
-            practice_title:"",
-            practice_link:"",
+  let section_theory = ""
+  let i = 1;
+  let temario = [
+    {
+      idTab: "tab",
+      title: "Intro",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
 
-        },
-        {
-          idTab: "tab",
-          title:"TEST 2",
-          theory_secc : section_theory,
-          slide_title : "",
-          slide_link : "",
-          video_title : "",
-          video_link : "",
-          blog_title : "",
-          blog_link : "", 
-          resources : [{
-              title:"",
-              link: ""
-          }],
-          exercise_desc:"",
-          exercise_warm:"",
-          chat_link:"",
-          chat_title:"",
-          practice_title:"",
-          practice_link:"",
+    },
+    {
+      idTab: "tab",
+      title: "Primer documento HTML",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
 
-      }
-    ]
-    return temario
+    },
+    {
+      idTab: "tab",
+      title: "Introducción a HTML y documentación",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Estructura HTML",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Etiqueta html, atibuto lang",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Head",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Body",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Tabla periódica de HTML",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Títulos (heading)",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Etiquetas de texto",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Etiquetas semánticas (strong)",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Etiquetas semánticas estructurales",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Contenedor en línea y en bloque",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Incorporar estilos",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Incorporar scripts",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Imágenes, vectores y figuras",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Listas ordenadas, desordenadas y de definición",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Tablas",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Links externos e internos",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Audio y video",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Forms",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Select, radio, checkbox",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Botones",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "DataAttributes",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    },
+    {
+      idTab: "",
+      title: "Id y class",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+
+    }
+
+    
+  ]
+  return temario
 }
 
 let temasWithId = () => {
   let myTopics = temas()
   for (let index = 0; index < myTopics.length; index++) {
-    myTopics[index].idTab = "tabId"+(index+1)
+    myTopics[index].idTab = "tabId" + (index + 1)
   }
   return myTopics
 }
 
 
 let drawTemplate = async () => {
-    console.log('por dibujar')
-    let temario = await temasWithId()
-    temario.map( tema => {
-        let template = /*html*/`
+  console.log('por dibujar')
+  let temario = await temasWithId()
+  temario.map(tema => {
+    let template = /*html*/`
         <!--Accordion wrapper-->
         <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
 
@@ -94,10 +602,10 @@ let drawTemplate = async () => {
                   <div class="video">
                     <h3 class="mb-xl-4 mb-lg-3 mb-4"><a href="http://"><i
                           class="ti-video-clapper mb-xl-4 mb-lg-3 mb-4 feature-icon"></i> Video</a></h3>
-                    <iframe width="500" height="250" src="https://www.youtube.com/embed/OMVO_TTitUM"
+                    <!--iframe width="500" height="250" src="https://www.youtube.com/embed/OMVO_TTitUM"
                       title="YouTube video player" frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
+                      allowfullscreen></iframe-->
                   </div>
   
                   <h3 class="mb-xl-4 mb-lg-3 mb-4"><a href="http://"><i
@@ -141,15 +649,15 @@ let drawTemplate = async () => {
                   <div class="collapse" id="collapsePrctise">
                     <h2>Practicá</h2>
                     <div class="card card-body">
-                      <iframe frameborder="0" width="100%" height="500px"
-                        src="https://replit.com/@SergioGimnez/Example?lite=1&outputonly=1"></iframe>
+                      <!--iframe frameborder="0" width="100%" height="500px"
+                        src="https://replit.com/@SergioGimnez/Example?lite=1&outputonly=1"></iframe-->
                     </div>
                   </div>
                   <div class="collapse" id="collapseSolution">
                     <h2>Esta es una posible solución</h2>
                     <div class="card card-body">
-                      <iframe frameborder="0" width="100%" height="500px"
-                        src="https://replit.com/@SergioGimnez/PossibleSpectacularDisk?lite=1&outputonly=1"></iframe>
+                      <!--iframe frameborder="0" width="100%" height="500px"
+                        src="https://replit.com/@SergioGimnez/PossibleSpectacularDisk?lite=1&outputonly=1"></iframe-->
                     </div>
                   </div>
                 </div>
@@ -157,12 +665,12 @@ let drawTemplate = async () => {
             </div>
             <!-- Accordion card -->
         `
-        
-        
-        document.querySelector("#temario").innerHTML += template
-        console.log(tema.title)
-    })
 
-    
+
+    document.querySelector("#temario").innerHTML += template
+    console.log(tema.title)
+  })
+
+
 }
 drawTemplate()

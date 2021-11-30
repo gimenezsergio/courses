@@ -465,7 +465,7 @@ a h4:hover {
 
 /* page title */
 .page-title-section {
-  padding: 200px 0 80px;
+  padding: 50px 0 50px;
 }
 
 .custom-breadcrumb li.nasted {
@@ -988,7 +988,7 @@ link:focus,
 
 .footer {
   border-color: #494a43 !important;
-  padding-top: 275px;
+  /* padding-top: 275px; */
 }
 
 /* /footer */
