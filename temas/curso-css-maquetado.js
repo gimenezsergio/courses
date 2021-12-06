@@ -4,7 +4,7 @@ let temas = () => {
   let temario = [
     {
       idTab: "tab",
-      title: "Definición: Definido, preciso, finito y legible",
+      title: "UNO",
       theory_secc: section_theory,
       slide_title: "",
       slide_link: "",
@@ -25,7 +25,7 @@ let temas = () => {
     },
     {
       idTab: "tab",
-      title: "Partes: Entrada, proceso y salidad",
+      title: "DOS",
       theory_secc: section_theory,
       slide_title: "",
       slide_link: "",
@@ -56,7 +56,7 @@ let temas2 = () => {
   let temario = [
     {
       idTab: "tab",
-      title: "Primitivos y compuestos",
+      title: "Flexbox1",
       theory_secc: section_theory,
       slide_title: "",
       slide_link: "",
@@ -77,7 +77,7 @@ let temas2 = () => {
     },
     {
       idTab: "tab",
-      title: "Ámbito (scope)",
+      title: "Flexbox2",
       theory_secc: section_theory,
       slide_title: "",
       slide_link: "",
@@ -419,9 +419,6 @@ let drawTemplate2 = async (temasWithId, divId) => {
 
 drawTemplate2(temasWithId(temas, tema1), tema1)
 drawTemplate2(temasWithId(temas2, tema2), tema2)
-drawTemplate2(temasWithId(temas2, tema3), tema3)
-drawTemplate2(temasWithId(temas2, tema4), tema4)
-drawTemplate2(temasWithId(temas2, tema5), tema5)
 
 
 
