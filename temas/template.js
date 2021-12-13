@@ -26,20 +26,20 @@ let templating = ( temas ) => {
       <article class="separator">
         <h3 class="section-title text-grey">Teoría</h3>
       </article>
-      <h3 class="mb-xl-4 mb-lg-3 mb-4"><a href="http://"><i
+      <h3 class="mb-xl-4 mb-lg-3 mb-4"><a href=""><i
             class="ti-layout-slider mb-xl-4 mb-lg-3 mb-4 feature-icon"></i> Slides</a></h3>
-      <h3 class="mb-xl-4 mb-lg-3 mb-4"><a href="http://"> <i
+      <h3 class="mb-xl-4 mb-lg-3 mb-4"><a href=""> <i
             class="ti-write mb-xl-4 mb-lg-3 mb-4 feature-icon"></i> Blog</a></h3>
       <div class="video">
-        <h3 class="mb-xl-4 mb-lg-3 mb-4"><a href="http://"><i
-              class="ti-video-clapper mb-xl-4 mb-lg-3 mb-4 feature-icon"></i> Video</a></h3>
-        <!--iframe width="500" height="250" src="https://www.youtube.com/embed/OMVO_TTitUM"
+        <!--h3 class="mb-xl-4 mb-lg-3 mb-4"><a href=""><i
+              class="ti-video-clapper mb-xl-4 mb-lg-3 mb-4 feature-icon"></i> Video</a></h3-->
+        <iframe width="500" height="250" src="https://www.youtube.com/embed/OMVO_TTitUM"
           title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe-->
+          allowfullscreen></iframe>
       </div>
 
-      <h3 class="mb-xl-4 mb-lg-3 mb-4"><a href="http://"><i
+      <h3 class="mb-xl-4 mb-lg-3 mb-4"><a href=""><i
             class="ti-receipt mb-xl-4 mb-lg-3 mb-4 feature-icon"></i> Recursos relacionados</a></h3>
 
       <article class="separator">
@@ -60,15 +60,18 @@ let templating = ( temas ) => {
         <p>Tener cuidado de que haya conexion a internet</p>
       </div>
       <p>
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePrctise"
-          aria-expanded="false" aria-controls="collapsePrctise">
+      <a href="https://replit.com/@SergioGimnez/Example" target="_blank">
+        <button class="btn btn-primary" type="button">
           Practicar
         </button>
+        </a>
+        <a href="https://replit.com/@SergioGimnez/PossibleSpectacularDisk" target="_blank">
         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSolution"
           aria-expanded="false" aria-controls="collapseExample">
           Ver la solución
         </button>
-        <a href="http://" target="_blank"></a>
+        </a>
+        <a href="" target="_blank"></a>
         <a href="https://programador2021.slack.com/archives/C01S2V8LZ8U" target="_blank">
           <button class="btn btn-primary" type="button">
             <img src="images/logo-slack.png" alt="" width="23">
@@ -81,15 +84,15 @@ let templating = ( temas ) => {
         <h2>Practicá</h2>
         <div class="card card-body">
           <!--iframe frameborder="0" width="100%" height="500px"
-            src="https://replit.com/@SergioGimnez/Example?lite=1&outputonly=1"></iframe-->
-        </div>
+            src="https://replit.com/@SergioGimnez/Example?lite=1&outputonly=1"></iframe>
+        </div-->
       </div>
       <div class="collapse" id="collapseSolution">
         <h2>Esta es una posible solución</h2>
         <div class="card card-body">
           <!--iframe frameborder="0" width="100%" height="500px"
-            src="https://replit.com/@SergioGimnez/PossibleSpectacularDisk?lite=1&outputonly=1"></iframe-->
-        </div>
+            src="https://replit.com/@SergioGimnez/PossibleSpectacularDisk?lite=1&outputonly=1"></iframe>
+        </div-->
       </div>
     </div>
   </div>
@@ -122,12 +125,12 @@ let templateHtml = /*html*/`
           <article class="separator">
             <h3 class="section-title text-grey">Teoría</h3>
           </article>
-          <h3 class="mb-xl-4 mb-lg-3 mb-4"><a href="http://"><i
+          <h3 class="mb-xl-4 mb-lg-3 mb-4"><a href=""><i
                 class="ti-layout-slider mb-xl-4 mb-lg-3 mb-4 feature-icon"></i> Slides</a></h3>
-          <h3 class="mb-xl-4 mb-lg-3 mb-4"><a href="http://"> <i
+          <h3 class="mb-xl-4 mb-lg-3 mb-4"><a href=""> <i
                 class="ti-write mb-xl-4 mb-lg-3 mb-4 feature-icon"></i> Blog</a></h3>
           <div class="video">
-            <h3 class="mb-xl-4 mb-lg-3 mb-4"><a href="http://"><i
+            <h3 class="mb-xl-4 mb-lg-3 mb-4"><a href=""><i
                   class="ti-video-clapper mb-xl-4 mb-lg-3 mb-4 feature-icon"></i> Video</a></h3>
             <!--iframe width="500" height="250" src="https://www.youtube.com/embed/OMVO_TTitUM"
               title="YouTube video player" frameborder="0"
@@ -135,7 +138,7 @@ let templateHtml = /*html*/`
               allowfullscreen></iframe-->
           </div>
 
-          <h3 class="mb-xl-4 mb-lg-3 mb-4"><a href="http://"><i
+          <h3 class="mb-xl-4 mb-lg-3 mb-4"><a href=""><i
                 class="ti-receipt mb-xl-4 mb-lg-3 mb-4 feature-icon"></i> Recursos relacionados</a></h3>
 
           <article class="separator">
@@ -164,7 +167,7 @@ let templateHtml = /*html*/`
               aria-expanded="false" aria-controls="collapseExample">
               Ver la solución
             </button>
-            <a href="http://" target="_blank"></a>
+            <a href="" target="_blank"></a>
             <a href="https://programador2021.slack.com/archives/C01S2V8LZ8U" target="_blank">
               <button class="btn btn-primary" type="button">
                 <img src="images/logo-slack.png" alt="" width="23">
