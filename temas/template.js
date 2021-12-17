@@ -1,5 +1,5 @@
 let tema = {}
-let templating = ( temas ) => {
+let templating = (temas) => {
   let template = ""
   temas.map(tema => {
     template +=
@@ -97,10 +97,12 @@ let templating = ( temas ) => {
     </div>
   </div>
 </div>
+</div></div></div></div>
+
 <!-- Accordion card -->
     `
   })
-return template
+  return template
 }
 let templateHtml = /*html*/`
 <!--Accordion wrapper-->
