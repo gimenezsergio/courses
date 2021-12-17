@@ -107,10 +107,10 @@ let menu = () => {
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item @@about">
-              <a class="nav-link" href="full-stack-i.html"> Full Stack I</a>
+              <a class="nav-link" href="full-stack-i.html">Programador</a>
             </li>
             <li class="nav-item @@courses">
-              <a class="nav-link" href="full-stack-ii.html">Full Stack II</a>
+              <a class="nav-link" href="full-stack-ii.html">Programador web</a>
             </li>
 
             <li class="nav-item @@blog">
@@ -120,5 +120,6 @@ let menu = () => {
         </div>
       `
       document.querySelector(".container nav"). innerHTML = template
+	  console.log('updating menu')
 }
 menu()
