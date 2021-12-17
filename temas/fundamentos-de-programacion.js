@@ -520,7 +520,7 @@ let drawTemplate = async (temasWithId, divId) => {
           </div>
         </div>
       </div>
-    </div>
+    
     <!-- Accordion card -->
 `
     document.querySelector("#" + divId).innerHTML += template
