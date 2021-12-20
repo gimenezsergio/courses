@@ -97,7 +97,7 @@
 
 let menu = () => {
     let template = /*html*/`
-        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <a class="navbar-brand" href="index.html"><img src="images/logo--dev.png" alt="logo" width="100"></a> <span class="h3 text-primary font-secondary">CODE</span>
         <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
