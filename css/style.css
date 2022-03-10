@@ -1025,3 +1025,7 @@ border-bottom: 1px solid rgba(0,0,0,.125);
 .color-icon {
   color: #ffbc3b;
 }
+
+.bold {
+  font-weight: 800;
+}
