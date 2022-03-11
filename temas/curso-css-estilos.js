@@ -897,6 +897,92 @@ let temas5 = () => {
   return temario
 }
 
+let temas6 = () => {
+  let section_theory = ""
+  let i = 1;
+  let temario = [
+    {
+      idTab: "tab",
+      title: "Ejemplo de uso",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+    }
+  ]
+  return temario
+}
+
+let temas7 = () => {
+  let section_theory = ""
+  let i = 1;
+  let temario = [
+    {
+      idTab: "tab",
+      title: "Ejemplo de uso",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+    }
+  ]
+  return temario
+}
+
+let temas8 = () => {
+  let section_theory = ""
+  let i = 1;
+  let temario = [
+    {
+      idTab: "tab",
+      title: "Ejemplo de uso",
+      theory_secc: section_theory,
+      slide_title: "",
+      slide_link: "",
+      video_title: "",
+      video_link: "",
+      blog_title: "",
+      blog_link: "",
+      resources: [{
+        title: "",
+        link: ""
+      }],
+      exercise_desc: "",
+      exercise_warm: "",
+      chat_link: "",
+      chat_title: "",
+      practice_title: "",
+      practice_link: "",
+    }
+  ]
+  return temario
+}
 let temasWithId = (nombreTema, temaId) => {
   let myTopics = nombreTema()
   for (let index = 0; index < myTopics.length; index++) {
@@ -911,6 +997,9 @@ let tema2 = "temario2"
 let tema3 = "temario3"
 let tema4 = "temario4"
 let tema5 = "temario5"
+let tema6 = "temario6"
+let tema7 = "temario7"
+let tema8 = "temario8"
 
 
 let drawTemplate2 = async (temasWithId, divId) => {
@@ -924,7 +1013,9 @@ drawTemplate2(temasWithId(temas2, tema2), tema2)
 drawTemplate2(temasWithId(temas3, tema3), tema3)
 drawTemplate2(temasWithId(temas4, tema4), tema4)
 drawTemplate2(temasWithId(temas5, tema5), tema5)
-
+drawTemplate2(temasWithId(temas6, tema6), tema6)
+drawTemplate2(temasWithId(temas7, tema7), tema7)
+drawTemplate2(temasWithId(temas8, tema8), tema8)
 
 
 let drawTemplate = async (temasWithId, divId) => {
