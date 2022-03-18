@@ -419,9 +419,9 @@ let drawTemplate2 = async (temasWithId, divId) => {
 
 drawTemplate2(temasWithId(temas, tema1), tema1)
 drawTemplate2(temasWithId(temas2, tema2), tema2)
-drawTemplate2(temasWithId(temas2, tema3), tema3)
-drawTemplate2(temasWithId(temas2, tema4), tema4)
-drawTemplate2(temasWithId(temas2, tema5), tema5)
+drawTemplate2(temasWithId(temas3, tema3), tema3)
+drawTemplate2(temasWithId(temas4, tema4), tema4)
+drawTemplate2(temasWithId(temas5, tema5), tema5)
 
 
 
